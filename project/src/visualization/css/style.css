@@ -1,0 +1,36 @@
+/*
+ * File: style.css
+ * Author: Vincent Chung <vwchung2@illinois.edu>
+ * Course: CS519 - Scientific Visualization (Fall 2021)
+ * Assingment: Course Project
+ */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
+}
+
+#network_graph {
+    height: 800px;
+}
+
+img.legend-icon {
+    width: 16px;
+    height: 16px;
+}
+
+span.lgnd_splotch {
+    display: inline-block;
+    padding: 4px;
+    width: 8px;
+    height: 8px;
+}
